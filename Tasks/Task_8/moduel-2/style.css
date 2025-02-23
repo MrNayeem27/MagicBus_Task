@@ -1,0 +1,199 @@
+body{
+    background-color: wheat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0px;
+}
+
+
+/* Header */
+
+header {
+    background-color: rgb(207, 166, 88);
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+
+header img {
+    width: 30px;
+    height: 40px;
+    margin-left: 30px;
+}
+
+header nav ul {
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+}
+
+header nav ul li a{
+    color: rgb(65, 48, 18);
+    text-decoration: none;
+}
+
+header nav button{
+    border: none;
+    background: transparent;
+    margin-right: 30px;
+}
+
+header nav button a{
+    color: rgb(65, 48, 18);
+}
+
+
+/* Section */
+
+section h1{
+    color: rgb(65, 48, 18);
+}
+
+section {
+    height: 84vh;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: rgb(207, 166, 88);
+    color: rgb(65, 48, 18);
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    height: 8vh;
+}
+
+
+/* Media Queries */
+
+@media screen and (min-width: 200px) and (max-width: 600px) {
+    header {
+        height: 10vh;
+    }
+
+    header img {
+        width: 20px;
+        height: 30px;
+        margin-left: 10px;
+    }
+
+    header nav ul {
+        gap: 10px;
+    }
+
+    header nav ul li a{
+        font-size: 12px;
+    }
+
+    header nav button{
+        margin-right: 10px;
+    }
+
+    header nav button a{
+        font-size: 12px;
+    }
+
+    section h1{
+        font-size: 20px;
+    }
+
+    section {
+        height: 80vh;
+    }
+
+    footer {
+        height: 10vh;
+    }
+    
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+    header {
+        height: 10vh;
+    }
+
+    header img {
+        width: 25px;
+        height: 35px;
+        margin-left: 20px;
+    }
+
+    header nav ul {
+        gap: 20px;
+    }
+
+    header nav ul li a{
+        font-size: 14px;
+    }
+
+    header nav button{
+        margin-right: 20px;
+    }
+
+    header nav button a{
+        font-size: 14px;
+    }
+
+    section h1{
+        font-size: 25px;
+    }
+
+    section {
+        height: 80vh;
+    }
+
+    footer {
+        height: 10vh;
+    }
+
+}
+
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+    header {
+        height: 10vh;
+    }
+
+    header img {
+        width: 30px;
+        height: 40px;
+        margin-left: 30px;
+    }
+
+    header nav ul {
+        gap: 30px;
+    }
+
+    header nav ul li a{
+        font-size: 16px;
+    }
+
+    header nav button{
+        margin-right: 30px;
+    }
+
+    header nav button a{
+        font-size: 16px;
+    }
+
+    section h1{
+        font-size: 30px;
+    }
+
+    section {
+        height: 80vh;
+    }
+
+    footer {
+        height: 10vh;
+    }
+    
+}
