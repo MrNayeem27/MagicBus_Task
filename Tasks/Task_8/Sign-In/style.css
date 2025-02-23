@@ -1,0 +1,53 @@
+body{
+    background-image: url(https://images.hdqwalls.com/download/night-lights-anime-o5-1366x768.jpg);
+    color: white;
+    background-size: cover;
+    height: 100vh;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.container{
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    display: wrap;
+}
+
+.container pre{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 48px;
+    margin: 0px;
+}
+
+.username{
+    padding: 10px;
+}
+
+.email{
+    padding: 10px;
+}
+
+.phone{
+    padding: 10px;
+}
+
+.password{
+    padding: 10px;
+}
+
+.confirm-password{
+    padding: 10px;
+}
+
+.button{
+    padding: 10px;
+}
+
