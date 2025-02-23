@@ -1,0 +1,18 @@
+body{
+  background-color: rgba(42, 61, 148, 0.548);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 1px;
+}
+
+.container {
+  background-color: rgba(134, 221, 126, 0.582);
+  border: 3px solid #000;
+  border-radius: 10px;
+  display: flex;
+  padding: 100px;
+  align-items: center;
+  justify-content: center;
+}

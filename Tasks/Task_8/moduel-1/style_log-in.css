@@ -1,0 +1,66 @@
+body {
+    background-image: url(../Asset/2560x1440-rising-in-red-4k-3840x2160_1705438068.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: rgb(238, 61, 61);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0px;
+    height: 100vh;
+}
+
+.container h4{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container h4 a {
+    color: rgb(238, 61, 61);
+    text-decoration: none;
+}
+
+.container {
+    background-color: rgba(46, 45, 46, 0.87);
+    border: 1px solid;
+    border-radius: 15px;
+    padding: 20px 60px 40px 60px;
+}
+
+#email {
+    color: rgb(54, 54, 54);
+    font-size: 14px;
+    margin-bottom: 4px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgb(238, 61, 61);
+    color: rgb(238, 61, 61);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    padding: 5px;
+    outline: none;
+}
+
+#password {
+    color: rgb(54, 54, 54);
+    font-size: 14px;
+    margin-bottom: 4px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgb(238, 61, 61);
+    color: rgb(238, 61, 61);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    padding: 5px;
+    outline: none;
+}
+
+button {
+    background-color: rgb(238, 61, 61);
+    color: rgb(63, 62, 63);
+    border: 1px;
+    border-radius: 15px;
+    width: 100px;
+}
