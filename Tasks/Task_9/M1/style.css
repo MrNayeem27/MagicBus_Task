@@ -43,7 +43,7 @@ footer{
 @media screen and (max-width: 600px) {
     .container{
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
     }
     
 }
@@ -51,7 +51,7 @@ footer{
 @media screen and (min-width: 601px) and (max-width: 900px) {
     .container{
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
     }
     
 }
