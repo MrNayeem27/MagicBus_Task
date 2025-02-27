@@ -1,0 +1,140 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f8f8f8;
+}
+
+
+/* Nav-Bar */
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo img {
+    height: 50px;
+    width: 150px;
+    position: relative;
+    left: 80px;
+}
+
+.search-box {
+    position: relative;
+    width: 400px;
+}
+
+.search-box img{
+    width: 30px;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: gray;
+}
+
+.search-box input {
+    width: 100%;
+    padding: 10px 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    position: relative;
+    right: 80px;
+}
+
+#download{
+    gap: 20px;
+}
+
+#download::after{
+    content: "|";
+    font-size: 35px;
+    color: #ddd;
+}
+
+#db1{
+    gap: 20px;
+}
+
+#db1::after{
+    content: "|";
+    font-size: 35px;
+    color: #ddd;
+}
+
+#db2{
+    gap: 20px;
+}
+
+#db2::after{
+    content: "|";
+    font-size: 35px;
+    color: #ddd;
+}
+
+#download:hover{
+    border-radius: 0px;
+    box-shadow: 0px 2px 0px black;
+}
+
+#profile:hover{
+    border-radius: 0px;
+    box-shadow: 0px 2px 0px black;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    gap: 8px;
+}
+
+.nav-links img {
+    height: 50px;
+}
+
+
+/* Menu-Bar */
+
+.menu-bar {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.menu-bar ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    position: relative;
+    left: 210px;
+    right: 80px;
+}
+
+.menu-bar ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+}

@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+    color: black;
+}
+
+.head1{
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.514);
+}
+
+nav ul{
+    display: flex;
+    gap: 35px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.Meesho_logo{
+    height: 80px;
+    width: 150px;
+}
+
+.search-bar{
+    height: 50px;
+    width: 50px;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    border: 1px solid blue;
+    border-radius: 5px;
+    height:fit-content;
+    width: 500px;
+    padding: 5px 10px;
+}
+
+#search-bar{
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 17px;
+    width: 500px;
+}
+
+.download-logo{
+    height: 60px;
+    width: 60px;
+}
+
+.profile{
+    height: 60px;
+    width: 60px;
+}
+
+.cart-logo{
+    height: 60px;
+    width: 60px;
+}
