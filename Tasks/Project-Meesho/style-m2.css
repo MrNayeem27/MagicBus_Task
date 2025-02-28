@@ -9,23 +9,27 @@ body {
     background-color: #f8f8f8;
 }
 
+header{
+    border-bottom: 1px solid #ddd;
+}
+
 
 /* Nav-Bar */
 
 .navbar {
     display: flex;
-    justify-content: space-evenly;
+    height: 9vh;
+    justify-content:space-around;
     align-items: center;
     padding: 10px 20px;
     background-color: white;
-    border-bottom: 1px solid #ddd;
 }
 
 .logo img {
     height: 50px;
     width: 150px;
     position: relative;
-    left: 80px;
+    left: 100px;
 }
 
 .search-box {
@@ -53,9 +57,10 @@ body {
 .nav-links {
     display: flex;
     align-items: center;
+    text-decoration: none;
     gap: 25px;
     position: relative;
-    right: 80px;
+    right: 100px;
 }
 
 #download{
@@ -90,12 +95,12 @@ body {
 
 #download:hover{
     border-radius: 0px;
-    box-shadow: 0px 2px 0px black;
+    box-shadow: 0px 3px 0px black;
 }
 
 #profile:hover{
     border-radius: 0px;
-    box-shadow: 0px 2px 0px black;
+    box-shadow: 0px 3px 0px black;
 }
 
 .nav-links a {
@@ -105,7 +110,7 @@ body {
     display: flex;
     align-items: center;
     font-weight: bold;
-    gap: 8px;
+    gap: 5px;
 }
 
 .nav-links img {
@@ -115,26 +120,31 @@ body {
 
 /* Menu-Bar */
 
-.menu-bar {
+.menu{
     display: flex;
+    height: 7vh;
     justify-content: center;
     background-color: white;
-    padding: 10px 0;
-    border-bottom: 1px solid #ddd;
+    align-items: center;
 }
 
-.menu-bar ul {
+.menu ul {
     display: flex;
     list-style: none;
-    gap: 20px;
-    position: relative;
-    left: 210px;
-    right: 80px;
+    gap: 12px;
 }
 
-.menu-bar ul li a {
+.menu ul li a {
+    display: flex;
     text-decoration: none;
     color: black;
-    font-weight: bold;
     font-size: 14px;
+}
+
+
+/* Section */
+
+
+section{
+    height: 200vh;
 }
