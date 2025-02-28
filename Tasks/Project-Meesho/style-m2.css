@@ -26,10 +26,10 @@ header{
 }
 
 .logo img {
-    height: 50px;
-    width: 150px;
+    height: 90px;
+    width: 200px;
     position: relative;
-    left: 100px;
+    left: 120px;
 }
 
 .search-box {
@@ -67,7 +67,7 @@ header{
     gap: 20px;
 }
 
-#download::after{
+#db1::before{
     content: "|";
     font-size: 35px;
     color: #ddd;
@@ -94,18 +94,20 @@ header{
 }
 
 #download:hover{
+    display: flex;
     border-radius: 0px;
-    box-shadow: 0px 3px 0px black;
+    box-shadow: 0px 2px 0px rgba(45, 188, 231, 0.842);
 }
 
 #profile:hover{
+    display: flex;
     border-radius: 0px;
-    box-shadow: 0px 3px 0px black;
+    box-shadow: 0px 2px 0px rgba(45, 188, 231, 0.842);
 }
 
 .nav-links a {
     text-decoration: none;
-    color: black;
+    color: rgba(0, 0, 0, 0.699);
     font-size: 14px;
     display: flex;
     align-items: center;
@@ -130,14 +132,26 @@ header{
 
 .menu ul {
     display: flex;
+    color: rgba(0, 0, 0, 0.699);
     list-style: none;
-    gap: 12px;
+    gap: 20px;
+    overflow-x: auto;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+    width: 150vh;
+    position: relative;
+    left: 25px;
+}
+
+.menu ul::-webkit-scrollbar {
+    display: none;
 }
 
 .menu ul li a {
     display: flex;
     text-decoration: none;
-    color: black;
+    color: rgba(0, 0, 0, 0.699);
+    font-weight: bold;
     font-size: 14px;
 }
 
@@ -146,5 +160,4 @@ header{
 
 
 section{
-    height: 200vh;
 }

@@ -1,0 +1,44 @@
+*{
+    border: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    position: relative;
+    animation: bounce-rotate 2s infinite ease-in-out;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+@keyframes bounce-rotate {
+    0% {
+        transform: translateY(0) rotate(0deg);
+        background-color: blue;
+    }
+    25% {
+        transform: translateY(-30px) rotate(15deg);
+        background-color: red;
+    }
+    50% {
+        transform: translateY(0) rotate(0deg);
+        background-color: green;
+    }
+    75% {
+        transform: translateY(-30px) rotate(-15deg);
+        background-color: yellow;
+    }
+    100% {
+        transform: translateY(0) rotate(0deg);
+        background-color: blue;
+    }
+}
