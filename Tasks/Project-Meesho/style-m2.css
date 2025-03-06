@@ -122,7 +122,7 @@ header{
 
 /* Menu-Bar */
 
-.menu{
+/* .menu{
     display: flex;
     height: 7vh;
     justify-content: center;
@@ -153,7 +153,7 @@ header{
     color: rgba(0, 0, 0, 0.699);
     font-weight: bold;
     font-size: 14px;
-}
+} */
 
 
 /* Section */
