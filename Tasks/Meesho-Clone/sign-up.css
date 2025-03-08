@@ -17,9 +17,9 @@ header{
 /* Nav-Bar */
 
 .navbar {
-    display: flex;
+    display: none;
     height: 9vh;
-    justify-content:space-around;
+    justify-content:space-evenly;
     align-items: center;
     padding: 10px 20px;
     background-color: white;
@@ -27,13 +27,14 @@ header{
 
 .logo img {
     height: 90px;
-    width: 150px;
+    width: 200px;
     position: relative;
-    left: 100px;
+    left: 80px;
 }
 
 .search-box {
     position: relative;
+    right: 50px;
     width: 400px;
 }
 
@@ -83,23 +84,7 @@ header{
     color: #ddd;
 }
 
-#db2{
-    gap: 20px;
-}
-
-#db2::after{
-    content: "|";
-    font-size: 35px;
-    color: #ddd;
-}
-
 #download:hover{
-    display: flex;
-    border-radius: 0px;
-    box-shadow: 0px 2px 0px rgba(45, 188, 231, 0.842);
-}
-
-#profile:hover{
     display: flex;
     border-radius: 0px;
     box-shadow: 0px 2px 0px rgba(45, 188, 231, 0.842);
@@ -120,48 +105,59 @@ header{
 }
 
 
-/* Menu-Bar */
-
-.menu{
-    display: flex;
-    height: 7vh;
-    justify-content: center;
-    background-color: white;
-    align-items: center;
-}
-
-.menu ul {
-    display: flex;
-    color: rgba(0, 0, 0, 0.699);
-    list-style: none;
-    gap: 20px;
-    overflow-x: auto;
-    white-space: nowrap;
-    scroll-behavior: smooth;
-    width: 150vh;
-    position: relative;
-    left: 25px;
-}
-
-.menu ul::-webkit-scrollbar {
-    display: none;
-}
-
-.menu ul li a {
-    display: flex;
-    text-decoration: none;
-    color: rgba(0, 0, 0, 0.699);
-    font-weight: bold;
-    font-size: 14px;
-}
-
-.content-list{
-    display: none;
-}
-
-
-/* Section */
-
+/* section */
 
 section{
+    padding: 100px 0px 0px 700px;
+}
+
+.login-container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 450px;
+}
+
+.login-container img {
+    width: 450px;
+    border-radius: 8px;
+    position: relative;
+    margin-left: -20px;
+    margin-top: -20px;
+}
+
+.login-container h2 {
+    margin-bottom: 15px;
+}
+
+.login-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 10px;
+    background: #9c27b0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.login-btn:hover {
+    background: #7b1fa2;
+}
+
+.otp-info {
+    font-size: 12px;
+    color: #555;
+    margin-top: 10px;
 }
