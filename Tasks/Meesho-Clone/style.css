@@ -127,7 +127,7 @@ header {
 /* Menu-Bar */
 
 .menu{
-    display: flex;
+  
     height: 7vh;
     justify-content: center;
     border-bottom: #ccc 1px solid;
@@ -135,17 +135,17 @@ header {
     align-items: center;
 }
 
-.menu ul {
+.menu .ul {
     display: flex;
     color: rgba(0, 0, 0, 0.699);
     list-style: none;
     gap: 20px;
     overflow-x: auto;
     white-space: nowrap;
-    scroll-behavior: smooth;
+    /* scroll-behavior: smooth; */
     width: 150vh;
-    position: relative;
-    left: 25px;
+    /* position: relative;
+    left: 25px; */
 }
 
 .menu ul::-webkit-scrollbar {
@@ -160,13 +160,29 @@ header {
     font-size: 14px;
 }
 
-.content-list{
+.productlist{
     display: none;
+    width: 1200px;
+    height: 300px;
+    position: absolute;
+    top: 100%;
+    flex-direction: row;
+    gap: 20px;
+    padding: 10px;
+}
+.content-list ul{
+    display: flex;
+    flex-direction: column;
+}
+.product-list ul{
+    display: block;
 }
 
-/* .dropdown:hover .menu-bar{
+.dropdown:hover .productlist{
     display:flex;
     justify-content: start;
+    border: 1px solid black;
+   
 }
 
 .product-list{
@@ -176,7 +192,7 @@ header {
 .product-list .content-list a{
     text-decoration: none;
     color: black;
-} */
+}
 
 
 /* Section */
@@ -198,11 +214,18 @@ h2{
     text-align: center;
 }
 
-.section-title::before,
+.section-title::before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background-color: #b583b5;
+    margin: 0 100px;
+} 
+
 .section-title::after {
     content: "";
     flex: 1;
     height: 1px;
-    background-color: #b583b5; /* Light purple line */
-    margin: 0 100px; /* Adjust spacing */
+    background-color: #b583b5;
+    margin: 0 100px;
 }
