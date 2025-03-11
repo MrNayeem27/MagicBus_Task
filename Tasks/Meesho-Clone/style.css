@@ -10,7 +10,6 @@ body {
 }
 
 header {
-    position: sticky;
     top: 0px;
     z-index: 1000;
     background-color: white;
@@ -20,6 +19,7 @@ header {
 /* Nav-Bar */
 
 .navbar {
+    position: sticky;
     display: flex;
     height: 9vh;
     justify-content:space-around;
@@ -234,7 +234,7 @@ header {
 
 
 section{
-    height: 500vh;
+    /* height: 500vh; */
     background-color: white;
     position: relative;
     z-index: 1;
@@ -264,3 +264,67 @@ h2{
     background-color: #b583b5;
     margin: 0 100px;
 }
+
+
+/* Footer */
+
+.meesho-footer {
+    background-color: rgba(128, 128, 128, 0.096);
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .footer-section {
+    flex: 1;
+    margin: 0 15px;
+  }
+  
+  .footer-section h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #000;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+  }
+  
+  .footer-section ul li a:hover {
+    color: rgba(45, 188, 231, 0.842);
+  }
+  
+  .app-download img {
+    width: 120px;
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #ddd;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+  }
+

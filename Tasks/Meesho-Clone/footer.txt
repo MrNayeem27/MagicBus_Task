@@ -1,0 +1,218 @@
+<footer>
+
+        <!-- foot-1 -->
+        <div>
+            <h4>Shop Non-Stop on Meesho</h4>
+
+            <h5>Trusted by more than 1 Crore Indians</h5>
+            <h5>Cash on Delivery | Free Delivery</h5>
+
+            <img src="#" alt="google-play" id="google-play">
+            <img src="#" alt="app-store" id="app-store">
+        </div>
+        <div>
+            <a href="#">Careers</a>
+            <a href="#">Become a supplier</a>
+            <a href="#">Hall of Fame</a>
+            <a href="#">Sitemap</a>
+        </div>
+        <div>
+            <a href="#">Legal and Policies</a>
+            <a href="#">Meesho Tech Blog</a>
+            <a href="#">Notices and Returns</a>
+        </div>
+        <div>
+            <h4>
+                Reach out to us</h4>
+        </div>
+        <div>
+            <h4>Contact Us</h4>
+            <p>Fashnear Technologies Private Limited,
+                CIN: U74900KA2015PTC082263
+                3rd Floor, Wing-E, Helios Business Park,Kadubeesanahalli Village, 
+                Varthur Hobli, Outer Ring Road Bellandur, Bangalore, Bangalore South, Karnataka, India, 560103
+                E-mail address: query@meesho.com
+                © 2015-2025 Meesho.com</p>
+        </div>
+
+
+        <!-- foot-2 -->
+         
+        <div>
+            <h4>More About Meesho</h4>
+        </div>
+
+        <div>
+            <h3>Discover a World of Affordable Fashion & Everyday Essentials</h3>
+            <p>Upgrade your wardrobe and stock your home with the latest trends and essentials 
+                at unbeatable prices. Meesho offers a vast selection of products across all categories, 
+                ensuring you find everything you need at a fraction of the cost.</p>
+
+            <h4>Shop Millions of Products Across All Categories</h4>
+            <p>From trendy fashion finds to essential homeware, 
+                Meesho is your one-stop shop for everything you need. 
+                Explore millions of products across 650+ categories, 
+                ensuring you find the perfect item for any occasion.</p>
+
+            <h3>Latest Women's Fashion Is Right Here</h3>
+
+            <h4>Western Wear for Women</h4>
+            <p>Are you looking to revamp your wardrobe with stylish and affordable pieces? 
+                Look no further than Meesho's extensive collection of women's western wear. 
+                Find trendy dresses, casual jeans, and comfortable tops suitable for any occasion. 
+                We constantly update our inventory with the latest trends, 
+                ensuring you stay on top of your fashion game. Browse our collection of funky 
+                jewelry and accessories to complete your look and express your unique style.</p>
+
+            <h4>Accessories, Jewellery, and Footwear</h4>
+            <p>Elevate your outfit and add a touch of personality with Meesho's diverse range of accessories. 
+                Choose from a wide selection of jewelry sets, handbags, belts, 
+                and footwear to complement your style. Whether you're searching for statement 
+                earrings or comfortable sneakers, we have everything you need to complete your look.</p>
+
+            <h3>Largest Collection of Menswear and Accessories</h3>
+
+            <h4>Men’s Western Wear</h4>
+            <p>Upgrade your casual or formal attire with Meesho's men's wear collection. 
+                We offer a vast selection of T-shirts, jeans, polos, coats, and shirts in all sizes. 
+                Our user-friendly search tool allows you to filter by size, color, and material, 
+                making it easy to find the perfect fit. Explore our collection of trendy accessories, 
+                including wallets, cufflinks, and bags, to add a touch of sophistication to your look.</p>
+
+            <h4>Men's Ethnic Wear</h4>
+            <p>Need a new sherwani or any Indian Attire for an upcoming wedding function? 
+                Check out our latest men's ethnic wear collection, which has a range of budget-friendly 
+                styles to choose from, so you're sure to find something that fits your needs. 
+                Whether you're looking for a Sherwani set, Kurta pajamas or kurta, or an ethnic jacket, 
+                we've got it all!</p>
+
+            <h4>Men’s Accessories and Footwear</h4>
+            <p>No one beats the quality & assurance of our men's styling products. 
+                From men's accessories to the latest footwear collection, we have picked out something for you, 
+                your better half, or your brother! Shop our online collection of items like men's wallets, 
+                cufflinks, bags for men, belts, rings, and more. Remember to check out our latest footwear for men.
+                We have everything you need - from vibrant sneakers to formal office wear shoes to 
+                casual/ daily wear flip-flocks. So don't waste another minute. Get yourself some accessories today!</p>
+
+            <h4>Top Quality Beauty & Personal Care Products</h4>
+            <p>With thousands of different cosmetic brands and products, finding the right skincare, 
+                haircare & makeup products for you can be overwhelming. Despite a lot of reach, 
+                you sometimes buy lousy quality products that break you out, causing skin irritation & redness. 
+                We are here to help you and bring only the best makeup/ beauty products and skincare 
+                that not only nourish your skin & prevent further damage. Not only that, 
+                we have every makeup need, from foundations, makeup removers, and concealers to primer, 
+                mascara, eye shadow, and lipsticks.</p>
+
+            <h4>Baby Care & Kids Fashion Wear</h4>
+            <p>Parenthood calls for constant buying of new clothes for your kids! Whether you're 
+                looking for trendy baby clothes or just want affordable and trendy kidswear, 
+                we've got you covered. You'll find everything from pink rompers and dresses for girls to 
+                sets and jeans for boys. Plus, we have ethnic wear and accessories for all ages of kids, 
+                from newborns to grown-ups. Click on baby care to shop for all your basic needs.</p>
+
+            <h3>Shop Home Decor & Kitchen Products, Electronics, and Much More</h3>
+
+            <h4>Kitchen Products</h4>
+            <p>If you want to elevate your kitchen space, then you've come to the right place! 
+                Discover and browse a wide variety of top-quality home products, kitchen essentials 
+                like cooking utensils and serveware, kitchen storage, appliances like blenders, choppers, 
+                cooktops, and more! We are dedicated to providing our customers with the highest 
+                quality products at the most reasonable prices. Shop everything you need to spice up 
+                your kitchen and home! Happy shopping!</p>
+
+            <h4>Home Utility and Essentials</h4>
+            <p>Home styling is not just a trend but a necessity of the hour for every 
+                home - it keeps your surroundings fresh, renovated, and aesthetic. But of course, 
+                you only want to spend what you have to. That's where Meesho comes in! 
+                We've got excellent prices on all kinds of home furnishing items like lamps, bedsheets, 
+                planters, curtains, cushions, and more. Plus, we constantly refresh our best 
+                home decor items so you can always stay on top of the latest trends. Hurry, 
+                cart everything you need!</p>
+
+            <h4>Electronics and Accessories</h4>
+            <p>At Meesho, you can access various gadgets and essentials for your electronic devices. 
+                Here, you'll find everything from chargers and headphones to data cables and even 
+                external battery packs. Every month, we offer different sales and discounts on products, 
+                allowing you to save on your favorite essentials. Here, you can find the perfect 
+                gift for everyone on your list without breaking your budget!</p>
+
+            <h4>Health, Fitness & Sports</h4>
+            <p>Health is wealth! We know how important it is for you to take care of your 
+                health and your family's fitness. To begin your healthcare journey, we have everything 
+                at our store. You will find a wide variety of fitness equipment, health supplements, foods, 
+                nuts, and many more at very affordable prices. So what are you waiting for? Get started with
+                your home workouts by shopping for dumbbell sets, exercise bands, exercise mats, skipping 
+                ropes, sports kits, and more!</p>
+
+            <h4>Office Supplies and Stationery</h4>
+            <p>We have a wide range of stationery items which will help you stay tidy and organised. 
+                You can buy notebooks, diaries and notepads and craft supplies which are great for 
+                school and college, or you can buy office supplies which are great for adults. 
+                We have a variety of pens, pencils, and other stationery supplies to ensure that you 
+                have what you need to write down your thoughts, make lists and so much more.</p>
+
+            <h3>Join the Meesho Community</h3>
+            <p>For a seamless online shopping experience, feel free to download the Meesho App. 
+                With 50 Crore & counting happy customers, we believe in growing our community. 
+                To give you a hassle-free online shopping experience, plenty of user-friendly 
+                features will make your shopping online easier than ever. Meesho offers multiple 
+                payment options, debit and credit cards, UPI, and COD, to help you with a smooth 
+                checkout process. Suppose you are unhappy or receive a damaged product. In that case, 
+                you can raise your concern with our expert team to immediately return them or get 
+                a full refund without questions. For any queries or concerns, send us an email 
+                at query@meesho.com. You can also contact us on social media through Facebook, 
+                Instagram, or Twitter. We're here to help you.</p>
+
+            <h4> 
+                <a href="https://play.google.com/store/apps/details?id=com.meesho.supply&hl=en_IN&gl=US">
+                    Download Meesho App Now</a> </h4>
+
+            <h3>More Than Just Shopping</h3>
+            <p>Apart from shopping and browsing, you can also earn money! Become a seller 
+                on Meesho and turn your passion into profit. Explore our wholesale pricing, 
+                easily share products with your network, and earn a commission on every sale.</p>
+        </div>
+
+
+        <!-- foot-3 -->
+
+        <div>
+            <h3> <a href="#">Online Shopping</a> </h3>
+
+            <h5>Baby</h5>
+            <h5> <a href="#">Baby Blanket</a> </h5>
+            <h5> <a href="#">Baby Hanging Cradle</a> </h5>
+            <h5> <a href="#">Baby Pillows</a> </h5>
+            <h5> <a href="#">Baby Sleeping Bag</a> </h5>
+            <h5> <a href="#">Baby Towels</a> </h5>
+
+            <h5>Electronics & Accessories</h5>
+            <h5> <a href="#"></a> </h5>
+            <h5> <a href="#"></a> </h5>
+            <h5> <a href="#"></a> </h5>
+            <h5> <a href="#"></a> </h5>
+            <h5> <a href="#"></a> </h5>
+            <h5> <a href="#"></a> </h5>
+            <h5> <a href="#"></a> </h5>
+            <h5> <a href="#"></a> </h5>
+            <h5> <a href="#"></a> </h5>
+            <h5> <a href="#"></a> </h5>
+            <h5> <a href="#"></a> </h5>
+            <h5> <a href="#"></a> </h5>
+            <h5> <a href="#"></a> </h5>
+            <h5> <a href="#"></a> </h5>
+            <h5> <a href="#"></a> </h5>
+            <h5> <a href="#"></a> </h5>
+            <h5> <a href="#"></a> </h5>
+            <h5> <a href="#"></a> </h5>
+            <h5> <a href="#"></a> </h5>
+            <h5> <a href="#"></a> </h5>
+            <h5> <a href="#"></a> </h5>
+            <h5> <a href="#"></a> </h5>
+            <h5> <a href="#"></a> </h5>
+            <h5> <a href="#"></a> </h5>
+            <h5> <a href="#"></a> </h5>
+            <h5> <a href="#"></a> </h5>
+        </div>
+
+    </footer>
