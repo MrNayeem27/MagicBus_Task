@@ -19,7 +19,6 @@ header {
 /* Nav-Bar */
 
 .navbar {
-    position: sticky;
     display: flex;
     height: 9vh;
     justify-content:space-around;
@@ -180,8 +179,9 @@ header {
     top: 100%;
     flex-direction: row;
     gap: 40px;
-    top: 50px;
+    top: 125px;
     left: 240px;
+    z-index: 1000;
 }
 
 .content-list ul{
@@ -189,6 +189,8 @@ header {
     flex-direction: column;
     list-style: none;
     gap: 8px;
+    margin-top: 20px;
+    margin-left: 10px;
 }
 
 .product-list ul{
@@ -209,6 +211,7 @@ header {
 .dropdown > a {
     border-bottom: 1px solid transparent;
 }
+
 .dropdown:hover > a{
     border-radius: 0px;
     /* box-shadow: 0px 2px 0px rgba(45, 188, 231, 0.842); */
@@ -225,44 +228,304 @@ header {
 }
 
 .content-list:nth-child(even){
-    background-color: rgba(128, 128, 128, 0.274);
-    padding: 0px 10px 0px 10px;
+    background-color: rgba(128, 128, 128, 0.116);
+    /* padding: 0px 10px 0px 10px; */
 }
 
 
 /* Section */
 
-
 section{
-    /* height: 500vh; */
+    height: 500vh;
     background-color: white;
-    position: relative;
+    position: relative; 
     z-index: 1;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
-.parent-banner , .banner{
-    justify-items: center;
+ /*banner1 css  */
+.Parentbanner{
+    display: flex;
+    flex-direction: row;
+    width: 1300px;
+    height: 12%;
+    position: relative;
+    left: 200px;
+    top: 20px;    
 }
 
-h2{
+.banners{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; 
+}
+
+.banner1{
+    width: 50%;
+    height: 100%;
+    padding: 30px;
+    background-color: rgba(192, 190, 190, 0.114);
+}
+
+h1{
+    font-size: 60px;
+}
+
+.bannerchild1 ul{
+    display: flex;
+    width: fit-content;
+    height: 50px;
+    gap: 30px;
+    justify-content: space-between;
+    list-style-type: none;
+    /* align-items: center; */
+}
+
+.bannerchild1 ul li{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.bannerchild1 ul .parentgrandchild::after{
+    content: "|";
+    left: 10px;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.523);
+}
+
+.bannerchild2{
+    background-color: rgba(45, 188, 231, 0.842);
+    color: white;
+    width: 330px;
+    height: 50px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner2 .bannerchild1 img{
+    width: 647px;
+    height:440px;
+
+}
+
+.banner2{
+    width: 50%;
+   height: 100%;
+}
+
+.section-title {
+    display: flex;
+    align-items: center;
     text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 100px;
 }
 
-.section-title::before {
-    content: "";
-    flex: 1;
-    height: 1px;
-    background-color: #b583b5;
-    margin: 0 100px;
-} 
-
+.section-title::before,
 .section-title::after {
     content: "";
     flex: 1;
     height: 1px;
-    background-color: #b583b5;
-    margin: 0 100px;
+    background-color: rgba(45, 188, 231, 0.842); /* Light purple line */
+    margin: 0 100px; /* Adjust spacing */
+}
+
+/* Banner 2 CSS*/
+.Parentbanner2{
+    background-image: url(./Assets/Img/DALL·E\ 2025-03-11\ 12.39.19\ -\ A\ clean\,\ mild\ blue\ gradient\ background\ suitable\ for\ an\ advertisement\ banner.\ The\ background\ should\ be\ smooth\,\ soft\,\ and\ professional\,\ without\ any\ text.webp);
+    display: flex;
+    flex-direction: row;
+    width: 1300px;
+    height: 600px;
+    position: relative;
+    left: 200px;
+    top: 20px;
+    margin-top: 40px;
+}
+
+.Parentbanner2 .banner-content{
+    width: 40%;
+    
+}
+.Parentbanner2 .banner-content1{
+    width: 60%;
+  
+}
+.imgbanner2{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.557);
+}
+.imgbanner1{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.557);
+}
+.childbanner{
+    display: flex;
+    flex-direction: column;
+    
+}
+.childbanner span{
+    margin-top: 10px;
+}
+.Parentbanner2 .childbanner1{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    column-gap: 50px;
+    row-gap: 20px;
+    justify-content: space-evenly;
+}
+.Parentbanner2 .banner1{
+    background-color: white;
+    width: 450px;
+    height: 450px;
+    border-radius: 25px;
+    position: relative;
+    top: 80px;
+    left: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+.Parentbanner2 a .banner2{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: 80px;
+    
+    text-align: center;
+    cursor: pointer;
+}
+.Parentbanner2  .banner2{
+    display: flex;
+    
+}
+.Parentbanner2 .banner2 .banner2{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 350px;
+    height: 350px;
+    
+}
+.Parentbanner2 .banner-content1 .banner2{
+    justify-content: space-evenly;
+    gap: 40px;
+    border-radius: 25px;
+}
+.Parentbanner2 .banner2 .childbanner1{
+    margin-top: -50px;
+}
+.banner-content1 h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top: 40px;
+    left: -10px;
+    color: rgb(27, 27, 27);
+}
+.Parentbanner2 a:hover{
+    color: black;
+}
+
+/* Banner3 CSS */
+
+.banner3 img{
+    height: 150px;
+    width: 150px;
+    border: 2px solid rgba(0, 0, 0, 0.297);
+    border-radius: 25px;
+}
+.Parentbanner3{
+    background-image: url(./Assets/Img/DALL·E\ 2025-03-11\ 12.39.19\ -\ A\ clean\,\ mild\ blue\ gradient\ background\ suitable\ for\ an\ advertisement\ banner.\ The\ background\ should\ be\ smooth\,\ soft\,\ and\ professional\,\ without\ any\ text.webp);
+    width: 1300px;
+    height: 600px;
+    position: relative;
+    left: 200px;
+    top: 100px;
+    display: flex;
+    
+}
+
+
+.Parentbanner3 .childbanner3{
+    background-color: white;
+    border-radius: 25px;
+    height: 400px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.Parentbanner3 .content-banner{
+    width: 70%;
+    display: flex;
+    gap: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Parentbanner3 .content-banner span{
+    background-color: whitesmoke;
+    display: block;
+    width: 180px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 25px;
+    color: rgb(27, 27, 27);
+    text-align: center;
+    position: relative;
+    top: 18px;
+    left: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.Parentbanner3 .headname{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    height: 100%;
+    position: relative;
+    top: 230px;
+    left: 40px;
+}
+
+.Parentbanner3 .headname h2{
+font-size: 80px;
+color: black;
+
+-webkit-text-stroke: 2px rgba(45, 188, 231, 0.842); 
+
+}
+.Parentbanner3 .headname button{
+    width: 180px;
+    height: 50px;
+    outline: none;
+    background-color: ;
+    border-radius: 25px;
+   
+}
+.Parentbanner3 .headname button a{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;  
+}
+.Parentbanner4{
+    margin-top: 80px;
 }
 
 
