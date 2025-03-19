@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+  /* filter "Sort - by"  */
+
+  .card-filter{
+    /* border: 2px solid yellow; */
+    background-color: rgba(0, 0, 0, 0.16);
+    width: 30%;
+    min-height: 100vh;
+  }
+  .dropdown-label {
+    font-size: 14px;
+    color: #555;
+    margin-left: 10px;
+  }
+  
+  #filter {
+    width: 200px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background: white;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  .filter_1{
+    border: 1px solid black;
+    display: inline-block;
+    border-radius: 5px;
+    background-color: white;
+  }
+  
+  #filter  option {
+    background: white;
+    padding: 10px;
+  }
+ 
+  #filter option:checked {
+    background: #e0b1cb; /* Pink highlight */
+  }
+  
+
+
+  /*Product Cards  */
+  .card-products{
+    border: 1px solid black;
+    margin: 0px;
+    min-height: 100vh;
+    display: flex;
+    
+  }
+
+  .product-price{
+    display: flex;
+    justify-content: start;
+    column-gap: 30px;
+  }
+  .price-discount{
+    color: rgb(17, 207, 17);
+    
+  } 
+  .rating-image{
+    width: 20px;
+    height: 20px;
+  }
+
+.cards-container{
+  /* border: 2px solid aqua; */
+  width: 100%;
+  height: 100%;
+  gap: 15px 1px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjust min width */
+ position: relative;
+ left: 10px;
+ top: 10px;
+ font-size: 17px;
+}
+.multiple-Cards{
+  border: 2px solid black;
+  width: 80%;
+  height: 400px;
+  border-radius: 15px;
+  padding: 10px;
+  
+}
+.multiple-Cards:hover{
+  box-shadow: 2px 2px 15px purple; /* Adds a shadow effect */
+  transition: box-shadow 0.3s ease-in-out; /* Smooth transition */
+}
+.product-images{
+  width: 100%;
+  height: 200px;
+  border-radius: 15px;
+}
+.product-Review{
+  display: flex;
+  justify-content: start;
+  column-gap: 37px;
+}
+.product-reviews-count{
+  text-align: center;
+  height: 35px;
+  position: relative;
+  left: -20px;
+}
+
+.child-Cards{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  position: relative;
+  left: 12px;
+  height: 50%;
+}
+.starRating{
+  background-color: green;
+  width: 67px;
+  color: white;
+  border-radius: 18px;
+  height: fit-content;
+  padding: 5px;
+}
+.starRating p{
+  text-align: center;
+}
+.starRating img{
+  position: relative;
+  left: 5px;
+  top: 2.5px;
+}
