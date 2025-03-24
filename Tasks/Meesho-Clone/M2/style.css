@@ -473,106 +473,343 @@ h1{
     color: black;
 }
 
-/* Banner3 CSS */
 
-.banner3 img{
-    height: 150px;
-    width: 150px;
-    border: 2px solid rgba(0, 0, 0, 0.297);
-    border-radius: 25px;
-}
-.Parentbanner3{
-    background-image: url(./Assets/Img/bg.webp);
-    width: 1200px;
-    height: 600px;
-    border-radius: 10px;
+/* 2 */
+
+/* Fashion Store Title */
+.h pre {
     position: relative;
-    left: 50px;
-    top: 100px;
-    display: flex;
-    
-}
-
-.Parentbanner3 .childbanner3{
-    background-color: white;
-    border-radius: 25px;
-    height: 400px;
-    width: 200px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-}
-
-.Parentbanner3 .content-banner{
-    width: 70%;
-    display: flex;
-    gap: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.Parentbanner3 .content-banner span{
-    background-color: whitesmoke;
-    display: block;
-    width: 180px;
-    height: 30px;
-    font-size: 20px;
-    border-radius: 25px;
-    color: rgb(27, 27, 27);
+    font-size: 4em;
     text-align: center;
-    position: relative;
-    top: 18px;
-    left: 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+    font-family: 'Brush Script MT', cursive;
+    color: #333;
+    margin: 1em 0;
 }
 
-.Parentbanner3 .headname{
-    width: 30%;
+/* Top Categories Image Container */
+.topCategoriesImage {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap; /* Allow images to wrap on smaller screens */
+    margin: 1em auto; /* Top and bottom margin, center horizontally */
+    padding: 1em;
+    background-image: url("./Assets/Img/bg.webp"); /* Assuming you're using a local image */
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    max-width: 1175px; /* Set a max width */
+    margin-top: 70px;
+    margin-bottom: 60px;
+}
+
+/* Image Styling */
+.topCategoriesImage img {
+    max-width: 30%; /* Distribute width */
+    margin: 0.5em;
+    border-radius: 10px;
+    transition: transform 0.3s ease; /* Transition for smooth hover effect */
+}
+
+.topCategoriesImage img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Style for the first image */
+.topCategoriesImage img:first-child {
+    max-width: 40%; /* Make first image larger */
+}
+
+.m2{
+    position: relative;
+    top: 70px;
+}
+
+.h{
+    position: absolute;
+    left: 700px;
+    top: 550px;
+}
+
+
+.banner-container {
+    width: 90%;
+    margin: 20px auto;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
-    align-items: center;
-    height: 100%;
+    gap: 60px;
+}
+
+.banner {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Increased shadow */
+    padding: 20px;
     position: relative;
-    top: 230px;
-    left: 40px;
+    overflow: hidden;
+    transition: transform 0.3s ease; /* Smooth transform transition */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.Parentbanner3 .headname h2{
-font-size: 80px;
-color: black;
-
-/* -webkit-text-stroke: 2px rgba(45, 188, 231, 0.842);  */
-
+.banner:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
 }
 
-.Parentbanner3 .headname button{
-    width: 180px;
-    height: 50px;
-    outline: none;
-    background-color: white;
-    border-radius: 25px;
+#essentials-banner {
+    background-image: url(./Assets/Img/bg.webp)
 }
 
-.Parentbanner3 .headname button a{
-    color: black;
-    font-size: 30px;
-    font-weight: bold;  
+#new-styles-banner {
+    background-image: url(./Assets/Img/bg.webp)
 }
 
-.Parentbanner4{
-    margin-top: 80px;
+.banner-content {
+    text-align: left;
+    margin-bottom: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-title {
+    font-size: 1.6em;
+    color: #333;
+    margin: 0;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Subtle text shadow */
+}
+
+.view-all-button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 7px;
+    text-decoration: none;
+    font-size: 0.95em;
+    display: inline-flex;
+    align-items: center;
+    transition: background-color 0.3s ease; /* Button color transition */
+}
+
+.view-all-button:hover {
+    background-color: rgba(45, 188, 231, 0.842); /* Darker purple on hover */
+}
+
+.view-all-button i {
+    margin-left: 8px;
+}
+
+.category-grid {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 15px; /* Increased gap */
+}
+
+.category-column {
+    width: 30%;
+}
+
+.category-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15); /* Increased item shadow */
+    transition: transform 0.3s ease;
+}
+
+.category-item:hover {
+    transform: scale(1.05); /* Scale on hover for interaction */
+}
+
+.category-item img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: opacity 0.3s ease; /* Fading effect */
+}
+
+.category-item img:hover {
+    opacity: 0.8; /* Slightly fade image on hover */
+}
+
+.category-label {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 123, 255, 0.9);
+    color: white;
+    text-align: center;
+    padding: 7px;
+    font-size: 0.9em;
+    text-decoration: none;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.category-label:hover {
+    background-color: rgba(0, 99, 204, 0.9); /* Darker blue on hover */
+}
+
+
+/* section2 */
+
+.container {
+    position: relative;
+    top: 50px;
+    width: 90%;
+    margin: 20px auto;
+}
+
+h1 {
+    color: #333;
+    text-align: left;
+}
+
+.sort-section {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.sort-section label {
+    margin-right: 10px;
+}
+
+.sort-section select {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.content {
+    display: flex;
+    gap: 20px;
+    height: 470px;
+}
+
+.filters {
+    width: 20%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.filters h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.filters p {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.category h3 {
+    font-size: 1em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.category input[type="search"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.category ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.category ul li {
+    margin-bottom: 5px;
+}
+
+.category ul li label {
+    font-size: 0.9em;
+    color: #333;
+}
+
+.category .show-more {
+    display: block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.products {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.product {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: left;
+}
+
+.product img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.product p {
+    margin: 5px 0;
+    font-size: 0.9em;
+}
+
+.product p:nth-child(3) {
+    font-weight: bold;
+}
+
+.product s {
+    color: #777;
+}
+
+.product .ratings {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.rating {
+    background-color: #28a745;
+    color: white;
+    padding: 2px 5px;
+    border-radius: 5px;
+    font-size: 0.8em;
+}
+
+.rating i{
+    margin-right:2px;
 }
 
 
 /* Footer */
 
 footer{
-    margin-top: 100px;
+    margin-top: 350px;
 }
 
 .meesho-footer {
@@ -634,7 +871,6 @@ footer{
     font-size: 14px;
     color: #666;
   }
-
 
 /* @media screen and (min-width: 1201px){
     .nav-links a{

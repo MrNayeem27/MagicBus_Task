@@ -34,7 +34,27 @@
     <div class="container p-5">
         <h1>My First BootStrap 5</h1>
     </div>
+
+    <!-- Grid System -->
+    <!-- BootStrap grid system is build with flexbox and allow up to 12 columns across the page -->
+
+    <style>
+        .col{
+            border: 1px solid rgba(19, 19, 19, 0.822);
+        }
+    </style>
     
+    <div class="container">
+        <div class="row">
+            <div class="col col-lg-12 col-md-4 col-sm-6">1</div>
+            <div class="col col-lg-12 col-md-4 col-sm-3">2</div>
+            <div class="col col-lg-12 col-md-4 col-sm-3">3</div>
+
+            <!-- off-set -->
+            <div class="col offset-lg-12 col-md-4 col-sm-3">5</div>
+            <div class="col offset-lg-12 col-md-4 col-sm-3">6</div>
+        </div>
+    </div>
     
 </body>
 </html>
