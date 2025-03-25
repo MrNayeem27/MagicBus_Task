@@ -606,7 +606,7 @@ h1{
     display: flex;
     justify-content: center;
     width: 100%;
-    gap: 15px; /* Increased gap */
+    gap: 30px; /* Increased gap */
 }
 
 .category-column {
