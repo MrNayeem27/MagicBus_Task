@@ -1,0 +1,116 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    padding: 0.50rem 1rem;
+    position: relative;
+    top: 5px;
+}
+
+.navbar-brand {
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: #333 !important; /* Override Bootstrap's default */
+}
+
+.navbar-nav .nav-link {
+    color: #555;
+    padding: 0.5rem 1rem;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+    color: #007bff;
+}
+
+/* Hero Section */
+.hero {
+    padding: 7rem 0;
+    background-color: #f8f9fa;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Trusted By */
+.trusted-by {
+    padding: 1.5rem 0;
+}
+
+.container .hero-img {
+    border-radius: 5px;
+    height: 490px;
+    width: 450px;
+    position: relative;
+    left: 80px;
+    bottom: 300px;
+}
+
+.trusted-by img {
+    height: 400px;
+}
+
+/* .trusted-by img:hover {
+    opacity: 1;
+} */
+
+/* Features */
+.features {
+    padding: 5rem 0;
+}
+
+.feature-item {
+    padding: 2rem;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+.feature-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Testimonials */
+.testimonials {
+    padding: 5rem 0;
+}
+
+.testimonial-item {
+    border-radius: 5px;
+}
+
+/* Contact */
+.contact {
+    padding: 5rem 0;
+}
+
+.contact label {
+    font-weight: bold;
+}
+
+.contact .form-control.is-invalid {
+    border-color: #dc3545;
+}
+
+/* CTA */
+.cta {
+    padding: 4rem 0;
+    color: white;
+}
+
+/* Footer */
+.footer {
+    padding: 1rem 0;
+    font-size: 0.85rem;
+}
