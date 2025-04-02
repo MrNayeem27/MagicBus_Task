@@ -1,4 +1,10 @@
 /* General Styling */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Arial', sans-serif;
     color: #333;
@@ -6,9 +12,15 @@ body {
 
 /* Navbar */
 .navbar {
-    padding: 0.50rem 1rem;
+    /* padding: 0.50rem 1rem; */
     position: relative;
-    top: 5px;
+    /* top: 5px; */
+    position: sticky;
+}
+
+.mx-auto {
+    position: absolute;
+    left: 480px;
 }
 
 .navbar-brand {
@@ -53,8 +65,13 @@ body {
     height: 490px;
     width: 450px;
     position: relative;
-    left: 80px;
-    bottom: 300px;
+    left: 650px;
+    bottom: 910px;
+}
+
+.trusted-by {
+    position: relative;
+    bottom: 500px;
 }
 
 .trusted-by img {
@@ -65,52 +82,38 @@ body {
     opacity: 1;
 } */
 
-/* Features */
-.features {
-    padding: 5rem 0;
+/* Blog Section */
+.blog {
+    /* padding: 5rem 0; */
+    position: relative;
+    bottom: 500px;
 }
 
-.feature-item {
-    padding: 2rem;
-    border-radius: 5px;
-    transition: transform 0.3s ease;
+.blog .card {
+    border: none;
 }
 
-.feature-item:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+.blog .card-img-top {
+    height: 250px;
+    object-fit: cover; /* Prevents image distortion */
 }
 
-/* Testimonials */
-.testimonials {
-    padding: 5rem 0;
+/* Style the "Read More" button (optional) */
+.read-more-btn {
+    /* You can add specific styles to your "Read More" buttons here */
 }
 
-.testimonial-item {
-    border-radius: 5px;
+/* Modal Styles (optional) - Fine-tune modal appearance */
+.modal-content {
+    border: none;
+    border-radius: 10px;
 }
 
-/* Contact */
-.contact {
-    padding: 5rem 0;
+.modal-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
 }
 
-.contact label {
-    font-weight: bold;
-}
-
-.contact .form-control.is-invalid {
-    border-color: #dc3545;
-}
-
-/* CTA */
-.cta {
-    padding: 4rem 0;
-    color: white;
-}
-
-/* Footer */
-.footer {
-    padding: 1rem 0;
-    font-size: 0.85rem;
+.modal-footer {
+    border-top: 1px solid #dee2e6;
 }
