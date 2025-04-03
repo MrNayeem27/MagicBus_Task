@@ -1,13 +1,14 @@
 import React from 'react'
-import Navbar from './Components/NavBar/Navbar'
+import Login from './Components/Login/Login'
+import Signup from './Components/Signup/Signup'
 
 const App = () => {
+  const isLog = true;
   return (
     <div>
-      <Navbar />
-      <h2>Wecome to Mr.N's CoreZone</h2>
+      {isLog ? <Login /> : <Signup />}
     </div>
   )
 }
 
-export default App
+export default App;

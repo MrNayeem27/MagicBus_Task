@@ -1,0 +1,274 @@
+/* --- Global & Body --- */
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background-color: #000000;
+    color: #dbdbdb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px 0;
+    box-sizing: border-box;
+  }
+  
+  .signup-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+  }
+  
+  /* --- Main Content Container --- */
+  .signup-container {
+    width: 100%;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* --- Shared Box Styling --- */
+  .signup-box, .login-prompt-box {
+    background-color: #000000;
+    /* border: 1px solid rgb(54, 54, 54); */
+    margin-bottom: 10px;
+    margin-top: -30px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 20px 40px;
+  }
+  
+  /* --- Signup Box Specifics --- */
+  .signup-box {
+      padding-top: 30px;
+      padding-bottom: 30px;
+  }
+  
+  
+  /* --- Instagram Logo --- */
+  .logo {
+    font-family: 'Grand Hotel', cursive; /* Ensure 'Grand Hotel' font is loaded */
+    font-size: 48px;
+    font-weight: normal;
+    margin: 0 auto 10px auto;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  /* --- Description Text --- */
+  .description-text {
+      font-size: 16px;
+      font-weight: 600;
+      color: rgb(168, 168, 168);
+      line-height: 20px;
+      margin: 0 0 15px 0;
+  }
+  
+  /* --- Facebook Login Button --- */
+  .facebook-login-btn {
+    background-color: #0095f6;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 15px;
+    font-size: 14px;
+  }
+  
+  .facebook-icon {
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      background-image: url('data:image/svg+xml,%3Csvg aria-label="Facebook icon" class="x3ajldb" color="rgb(255, 255, 255)" fill="rgb(255, 255, 255)" height="18" role="img" viewBox="0 0 448 512" width="18"%3E%3Ctitle%3EFacebook icon%3C/title%3E%3Cpath d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z"%3E%3C/path%3E%3C/svg%3E');
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+  }
+  
+  
+  /* --- OR Separator --- */
+  .separator {
+    display: flex;
+    align-items: center;
+    margin: 10px 0 18px 0;
+    color: rgb(168, 168, 168);
+    font-weight: bold;
+    font-size: 13px;
+  }
+  
+  .separator .line {
+    flex-grow: 1;
+    height: 1px;
+    background-color: rgb(54, 54, 54);
+  }
+  
+  .separator .or-text {
+    margin: 0 18px;
+  }
+  
+  /* --- Signup Form --- */
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+  }
+  
+  .signup-form input {
+    padding: 10px 8px;
+    background-color: rgb(38, 38, 38);
+    border: 1px solid rgb(54, 54, 54);
+    border-radius: 3px;
+    color: #ffffff;
+    font-size: 12px;
+  }
+  
+  .signup-form input::placeholder {
+    color: rgb(168, 168, 168);
+  }
+  
+  /* --- Info & Policy Text --- */
+  .info-text, .policy-text {
+      color: rgb(168, 168, 168);
+      font-size: 12px;
+      line-height: 16px;
+      margin: 15px 0;
+  }
+  
+  .info-text a, .policy-text a {
+      color: rgb(168, 168, 168);
+      font-weight: 600;
+      text-decoration: none;
+  }
+  
+  /* --- Sign Up Button --- */
+  .signup-btn {
+    background-color: #0095f6;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    width: 100%;
+    font-size: 14px;
+  }
+  
+  /* --- Login Prompt Box --- */
+  .login-prompt-box {
+    padding: 15px;
+  }
+  
+  .login-prompt-box p {
+    margin: 0;
+    font-size: 14px;
+    color: #ffffff;
+  }
+  
+  .login-prompt-box a {
+    color: #0095f6;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  /* --- Get the App Section --- */
+  .get-app-section {
+    text-align: center;
+    margin-top: 10px;
+    width: 100%;
+  }
+  
+  .get-app-section p {
+    margin: 0 0 15px 0;
+    font-size: 14px;
+    color: #ffffff;
+  }
+  
+  .app-stores {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .app-stores img {
+    height: 40px;
+    width: auto;
+  }
+  
+  /* --- Footer --- */
+  .signup-footer {
+      margin-top: 50px;
+      width: 100%;
+      max-width: 935px;
+      padding: 20px;
+      box-sizing: border-box;
+      text-align: center;
+      font-size: 12px;
+      color: #a8a8a8;
+  }
+  
+  .footer-links {
+      margin-bottom: 15px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+  }
+  
+  .footer-links a {
+      color: #a8a8a8;
+      text-decoration: none;
+  }
+  
+  .footer-copyright {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 15px;
+  }
+  
+  .language-select {
+      background-color: transparent;
+      border: none;
+      color: #a8a8a8;
+      font-size: 12px;
+      cursor: pointer;
+  }
+  
+  a:hover {
+      text-decoration: underline;
+  }
+  
+  /* --- Optional: Media Queries --- */
+  @media (max-width: 450px) {
+      body {
+          padding: 10px 0;
+      }
+      .signup-container {
+          max-width: 95%;
+      }
+      .signup-box, .login-prompt-box {
+          border: none;
+          background-color: transparent;
+          padding: 10px 10px;
+      }
+       .signup-footer {
+          margin-top: 20px;
+          padding: 10px;
+          font-size: 11px;
+       }
+      .footer-links {
+          gap: 8px;
+      }
+  }
