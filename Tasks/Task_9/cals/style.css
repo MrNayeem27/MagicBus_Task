@@ -1,71 +1,111 @@
-body{
-    background-color: rgba(5, 5, 82, 0.842);
-    margin: 0px;
-}
-
-.display input{
-    background-color: rgba(5, 5, 82, 0.705);
-    color: whitesmoke;
-    text-align: right;
-    font-size: 40px;
-    border: 2px solid black;
-    border-radius: 10px;
-    width: 495px;
-    height: 70px;
-}
-
-.all{
+body {
+    background-color: hsl(222, 26%, 31%); /* Example theme color */
+    margin: 0;
+    font-family: Arial, sans-serif;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    gap: 30px;
-    height: 100vh;
+    min-height: 100vh;
 }
 
-.parent{
-    border: 2px solid black;
+.calculator-container {
+    width: 90%;
+    max-width: 450px; /* Max width for larger screens */
+    padding: 20px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.display input {
+    background-color: hsl(224, 36%, 15%); /* Darker background for display */
+    color: white;
+    text-align: right;
+    font-size: 2.5rem; /* Relative font size */
+    border: none;
+    border-radius: 10px;
+    width: 100%; /* Take full width of container */
+    padding: 15px 20px;
+    box-sizing: border-box; /* Include padding in width */
+    margin-bottom: 20px;
+    height: 70px;
+    overflow: hidden; /* Hide overflow */
+}
+
+.keypad {
+    background-color: hsl(223, 31%, 20%); /* Keypad background */
     border-radius: 10px;
     padding: 20px;
-    gap: 15px;
-    height: fit-content;
-    width: fit-content;
+    gap: 15px; /* Spacing between buttons */
     display: grid;
-    grid-template-columns: repeat(4, 100px);
+    grid-template-columns: repeat(4, 1fr); /* Flexible columns */
+    box-sizing: border-box;
 }
 
-button{
+button {
     height: 50px;
-    width: 70px;
-    border: 2px solid black;
-    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.4rem; /* Relative font size */
+    cursor: pointer;
+    background-color: hsl(30, 25%, 89%); /* Light key background */
+    color: hsl(221, 14%, 31%); /* Dark text */
+    box-shadow: 0 4px hsl(28, 16%, 65%); /* Key shadow */
+    transition: background-color 0.15s ease, box-shadow 0.15s ease, transform 0.1s ease;
 }
 
-button:hover{
-    border-radius: 10px;
-    box-shadow: 10px 10px 10px black;
+button:hover {
+    background-color: hsl(0, 0%, 100%); /* Lighter on hover */
 }
 
-.child17{
-    grid-column: span 2 / span 4;
-
+button:active {
+    transform: translateY(2px); /* Press effect */
+    box-shadow: 0 2px hsl(28, 16%, 65%);
 }
 
-.child18{
-    grid-column: span 2 / span 4;
+.btn-delete,
+.btn-reset {
+    background-color: hsl(225, 21%, 49%); /* Blue background */
+    color: white;
+    box-shadow: 0 4px hsl(224, 28%, 35%); /* Blue shadow */
+    font-size: 1.1rem; /* Slightly smaller font for text */
 }
 
-.child17 button{
-    width: 190px;
-    background-color: rgba(5, 5, 82, 0.705);
+.btn-delete:hover,
+.btn-reset:hover {
+    background-color: hsl(225, 21%, 65%);
 }
 
-.child18 button{
-    width: 190px;
-    background-color: rgb(202, 55, 18);
+.btn-delete:active,
+.btn-reset:active {
+     box-shadow: 0 2px hsl(224, 28%, 35%);
+     transform: translateY(2px);
 }
 
-.child4 button{
-    background-color: rgba(238, 18, 2, 0.705);
+.btn-equals {
+    background-color: hsl(6, 63%, 50%); /* Red background */
+    color: white;
+    box-shadow: 0 4px hsl(6, 70%, 34%); /* Red shadow */
+}
+
+.btn-equals:hover {
+     background-color: hsl(6, 63%, 65%);
+}
+
+.btn-equals:active {
+     box-shadow: 0 2px hsl(6, 70%, 34%);
+     transform: translateY(2px);
+}
+
+
+/* Spanning buttons */
+.btn-reset {
+    grid-column: span 2; /* Correct span syntax */
+}
+
+.btn-equals {
+    grid-column: span 2; /* Correct span syntax */
 }
